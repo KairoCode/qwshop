@@ -30,7 +30,7 @@ import { Key,User } from '@element-plus/icons'
 import { useStore } from 'vuex'
 import {reactive,onMounted,toRefs,getCurrentInstance} from "vue"
 import { useRouter, useRoute } from 'vue-router'
-import agreementView from "@/components/common/agreement"
+import agreementView from "@/components/common/agreement.vue"
 import captcha from '@/plugins/captcha/captcha.js'
 export default ({
     components:{agreementView},

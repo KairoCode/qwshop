@@ -247,7 +247,7 @@
 </template>
 
 <script>
-import Chat from "@/components/common/chat"
+import Chat from "@/components/common/chat.vue"
 import {reactive,watch,onMounted,computed,onBeforeUnmount,getCurrentInstance} from "vue"
 import {useRoute,useRouter} from 'vue-router'
 import { useStore } from 'vuex'

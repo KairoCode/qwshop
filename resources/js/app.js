@@ -1,6 +1,7 @@
 import './bootstrap';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-window._ = require('lodash');
+import _ from 'lodash';
+window._ = _;
 import {createApp} from 'vue'
 import store from '@/stores'
 import ElementPlus from 'element-plus'

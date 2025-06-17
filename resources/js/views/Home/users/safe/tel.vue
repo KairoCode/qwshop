@@ -41,7 +41,7 @@
 <script>
 import {reactive,ref,onMounted,getCurrentInstance} from "vue"
 import { useStore } from 'vuex'
-import sms from "@/components/common/sms"
+import sms from "@/components/common/sms.vue"
 export default {
     components:{sms},
     setup(props) {

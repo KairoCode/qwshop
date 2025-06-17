@@ -40,7 +40,7 @@
 <script>
 import {reactive,ref,getCurrentInstance} from "vue"
 import { Coin } from '@element-plus/icons'
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 export default {
     components:{tableView},
     setup(props) {

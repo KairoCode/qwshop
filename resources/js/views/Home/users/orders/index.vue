@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import search from '@/components/common/search'
+import search from '@/components/common/search.vue'
 import {reactive,onMounted,getCurrentInstance} from "vue"
 import {Search} from '@element-plus/icons'
 import {useRouter,useRoute} from 'vue-router'

@@ -20,8 +20,8 @@
 <script>
 import {reactive,ref,getCurrentInstance} from "vue"
 import { Edit } from '@element-plus/icons'
-import tableView from "@/components/common/table"
-import goodsForm from "./form"
+import tableView from "@/components/common/table.vue"
+import goodsForm from "./form.vue"
 export default {
     components:{tableView,goodsForm},
     setup(props) {

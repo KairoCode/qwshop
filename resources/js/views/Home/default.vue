@@ -31,9 +31,9 @@
 </template>
 
 <script>
-import bannerView from "@/components/home/banner"
-import bannerAdv from "@/components/home/banner_adv"
-import advView from "@/components/home/adv"
+import bannerView from "@/components/home/banner.vue"
+import bannerAdv from "@/components/home/banner_adv.vue"
+import advView from "@/components/home/adv.vue"
 import {_push} from "@/plugins/config"
 import {reactive,onMounted,getCurrentInstance} from "vue"
 export default {

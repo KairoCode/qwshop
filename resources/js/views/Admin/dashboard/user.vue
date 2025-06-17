@@ -26,7 +26,7 @@
 
 <script>
 import {reactive,onMounted,getCurrentInstance} from "vue"
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 import { Line } from 'g2plot'
 export default {
     components:{tableView},

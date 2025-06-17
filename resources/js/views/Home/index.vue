@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import baseView from "@/components/home/base"
-import headView from "@/components/home/head"
+import baseView from "@/components/home/base.vue"
+import headView from "@/components/home/head.vue"
 
 import {reactive,getCurrentInstance} from "vue"
 export default {

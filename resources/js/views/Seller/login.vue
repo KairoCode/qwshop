@@ -28,7 +28,7 @@ import { Key,User } from '@element-plus/icons'
 import { useStore } from 'vuex'
 import {reactive,toRefs,getCurrentInstance} from "vue"
 import { useRouter, useRoute } from 'vue-router'
-import agreementView from "@/components/common/agreement"
+import agreementView from "@/components/common/agreement.vue"
 export default ({
     components:{agreementView},
     setup() {

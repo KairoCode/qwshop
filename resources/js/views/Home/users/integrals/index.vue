@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import search from '@/components/common/search'
+import search from '@/components/common/search.vue'
 import {reactive,onMounted,getCurrentInstance} from "vue"
 import {useRouter} from 'vue-router'
 export default {

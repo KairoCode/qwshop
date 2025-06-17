@@ -6,7 +6,7 @@
 
 <script setup>
 import {reactive,getCurrentInstance} from "vue"
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 
 const {proxy} = getCurrentInstance()
 const options = reactive([
