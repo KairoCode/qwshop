@@ -15,7 +15,7 @@
 
 <script>
 import { ref, watch } from "vue"
-import fontjs from '@/plugins/font'
+import fontjs from '@/plugins/font.vue'
 export default {
     props: ['value'],
     setup(props, { emit }) {

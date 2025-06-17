@@ -26,7 +26,7 @@
 
 <script>
 import {reactive,ref,onMounted,getCurrentInstance} from "vue"
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 export default {
     components:{tableView},
     setup(props) {

@@ -10,7 +10,7 @@
 
 <script>
 import {reactive,ref,getCurrentInstance} from "vue"
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 import { MagicStick } from '@element-plus/icons'
 export default {
     components:{tableView},

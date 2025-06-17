@@ -21,7 +21,7 @@
 <script>
 import {reactive,getCurrentInstance} from "vue"
 import { View  } from '@element-plus/icons'
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 export default {
     components:{tableView},
     setup(props) {

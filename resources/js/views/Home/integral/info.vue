@@ -71,7 +71,7 @@
 </template>
 
 <script>
-// import Chat from "@/components/chat/index"
+// import Chat from "@/components/chat/index.vue"
 import {reactive,watch,onMounted,getCurrentInstance} from "vue"
 import {useRoute,useRouter} from 'vue-router'
 import {ArrowLeftBold,ArrowRightBold,Star,Timer,UserFilled,SemiSelect,Plus} from '@element-plus/icons'

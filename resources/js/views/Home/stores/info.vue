@@ -138,8 +138,8 @@
 </template>
 
 <script>
-import Chat from "@/components/common/chat"
-import Banner from '@/components/home/banner'
+import Chat from "@/components/common/chat.vue"
+import Banner from '@/components/home/banner.vue'
 import {reactive,onMounted,computed,getCurrentInstance} from "vue"
 import { useRoute,useRouter } from 'vue-router'
 import { useStore } from 'vuex'

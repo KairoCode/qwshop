@@ -53,7 +53,7 @@
 <script>
 import {reactive,getCurrentInstance} from "vue"
 import { Promotion,Printer,Picture  } from '@element-plus/icons'
-import tableView from "@/components/common/table"
+import tableView from "@/components/common/table.vue"
 import {useRoute} from "vue-router"
 export default {
     components:{tableView},

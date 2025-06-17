@@ -119,7 +119,7 @@
 
 <script>
 import {reactive,onMounted,watch,computed,getCurrentInstance} from "vue"
-import banner from '@/components/home/banner'
+import banner from '@/components/home/banner.vue'
 import { CaretTop,CaretBottom } from '@element-plus/icons'
 import { useStore } from 'vuex'
 import {_push} from "@/plugins/config"

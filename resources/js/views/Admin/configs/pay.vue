@@ -270,7 +270,7 @@
 <script>
 import {reactive,ref,getCurrentInstance} from "vue"
 import {getToken} from '@/plugins/config'
-import qInput from '@/components/common/input'
+import qInput from '@/components/common/input.vue'
 export default {
     components:{qInput},
     setup(props) {

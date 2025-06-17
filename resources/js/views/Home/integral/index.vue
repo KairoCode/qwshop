@@ -98,7 +98,7 @@
 <script>
 import {reactive,computed,getCurrentInstance} from "vue"
 import { Coin  } from '@element-plus/icons'
-import banner from '@/components/home/banner'
+import banner from '@/components/home/banner.vue'
 import {useStore} from 'vuex'
 export default {
     components: {Coin,banner},

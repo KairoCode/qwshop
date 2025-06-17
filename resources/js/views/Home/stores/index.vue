@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import Banner from '@/components/home/banner'
+import Banner from '@/components/home/banner.vue'
 import { Reading,CircleCheckFilled,List,SetUp } from '@element-plus/icons'
 import {reactive,onMounted,getCurrentInstance} from "vue"
 import router from '@/plugins/router'
